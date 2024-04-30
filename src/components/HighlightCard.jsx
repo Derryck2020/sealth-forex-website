@@ -2,7 +2,7 @@ import React from 'react';
 
 const HighlightCard = ({ icon, title, text }) => {
 	return (
-		<article className='bg-cyan-600 grid relative gap-6 '>
+		<article className='bg-cyan-600 grid relative gap-5 '>
 			<div className='flex justify-center p-2'>
 				{/* Image with ::before pseudo-element */}
 				<img
@@ -18,10 +18,12 @@ const HighlightCard = ({ icon, title, text }) => {
 					{' '}
 				</span>
 			</div>
-			<h3 className='capitalize mb text-cyan-50 text-xl font-semibold text-center tracking-wider'>
-				{title}
-			</h3>
-			<p className='text-center text-cyan-950'>{text}</p>
+			<div className='grid gap-3'>
+				<h3 className='capitalize text-cyan-50 text-xl font-semibold text-center tracking-wider cursor-pointer hover:text-cyan-950 transition duration-300 ease-in-out'>
+					{title}
+				</h3>
+				<p className='text-center text-cyan-950'>{text}</p>
+			</div>
 		</article>
 	);
 };

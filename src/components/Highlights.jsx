@@ -16,14 +16,16 @@ const Highlights = () => {
 							key highlights
 						</h6>
 					</div>
-					<p className='text-4xl tracking-wide text-cyan-50 md:text-4xl md:w-45 md:mx-25 text-center font-semibold'>
+					<p className='text-4xl capitalize tracking-wide text-cyan-50 md:text-4xl md:w-45 md:mx-25 text-center font-semibold'>
 						Reasons for choosing us
 					</p>
 				</section>
-				<div className='mt-5 grid sm:grid-cols-2 xl:grid-cols-3 gap-8 xl:divide-y xl:divide-x'>
-					{highlight_items.map((item) => {
-						return <HighlightCard key={item.id} {...item} />;
-					})}
+				<div className='mt-5 grid sm:grid-cols-2 xl:grid-cols-3 gap-8'>
+					{highlight_items.map((item) => (
+						<div key={item.id}>
+							<HighlightCard {...item} />
+						</div>
+					))}
 				</div>
 			</div>
 		</section>
