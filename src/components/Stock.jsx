@@ -5,7 +5,7 @@ import StockCard from './StockCard';
 
 const Stock = () => {
 	return (
-		<section className='bg-cyan-50 border border-green-500'>
+		<section className='bg-cyan-50'>
 			<div className='align-element py-10 mt-10 grid items-center gap-8'>
 				<section className='flex flex-col md:mx-20 items-center'>
 					<div className='flex items-center justify-center capitalize py-3 px-6 '>
