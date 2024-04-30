@@ -14,6 +14,7 @@ const StockCard = ({ title, icon, trend, price }) => {
 					alt={title}
 					className='object-cover size-7 xl:size-5 rounded'
 				/>
+
 				<span className='uppercase text-sm'>{title}</span>
 			</div>
 
