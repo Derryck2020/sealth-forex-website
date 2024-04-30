@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Hero from './components/Hero';
 import Product from './components/Product';
 import Stock from './components/Stock';
+import Highlights from './components/Highlights';
 
 const App = () => {
 	return (
@@ -12,6 +13,7 @@ const App = () => {
 			<Hero />
 			<Product />
 			<Stock />
+			<Highlights />
 		</BrowserRouter>
 	);
 };
