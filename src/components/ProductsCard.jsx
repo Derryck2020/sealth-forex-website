@@ -17,7 +17,7 @@ const ProductsCard = ({ img, url, title, text }) => {
 				<p className='mt-4 text-cyan-900 leading-loose'>{text}</p>
 				<Link
 					to={url}
-					className='flex items-center text-white w-40 capitalize tracking-wider py-4 px-6 my-5 bg-cyan-500 hover:bg-cyan-200 hover:text-cyan-900 hover:border-solid hover:border-2 hover:border-cyan-900 rounded-full transition duration-300 ease-in-out'
+					className='flex mx-auto items-center text-white w-40 capitalize tracking-wider py-4 px-6 my-5 bg-cyan-500 hover:bg-cyan-200 hover:text-cyan-900 hover:border-solid hover:border-2 hover:border-cyan-900 rounded-full transition duration-300 ease-in-out'
 				>
 					<span>
 						<FiLogOut />
