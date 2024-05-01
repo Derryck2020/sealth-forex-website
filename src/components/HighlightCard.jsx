@@ -2,7 +2,7 @@ import React from 'react';
 
 const HighlightCard = ({ icon, title, text }) => {
 	return (
-		<article className='bg-cyan-600 grid relative gap-5 '>
+		<article className='bg-cyan-600 grid relative gap-6 '>
 			<div className='flex justify-center p-2'>
 				{/* Image with ::before pseudo-element */}
 				<img
