@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Product from './components/Product';
 import Stock from './components/Stock';
 import Highlights from './components/Highlights';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
 	return (
@@ -14,6 +15,7 @@ const App = () => {
 			<Product />
 			<Stock />
 			<Highlights />
+			<Testimonials />
 		</BrowserRouter>
 	);
 };
