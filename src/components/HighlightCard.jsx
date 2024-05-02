@@ -19,7 +19,7 @@ const HighlightCard = ({ icon, title, text }) => {
 				</span>
 			</div>
 			<div className='grid gap-3'>
-				<h3 className='capitalize text-cyan-50 text-xl font-semibold text-center tracking-wider cursor-pointer hover:text-cyan-950 transition duration-300 ease-in-out'>
+				<h3 className='capitalize w-60 mx-auto text-cyan-50 text-xl font-semibold text-center tracking-wider cursor-pointer hover:text-cyan-950 transition duration-300 ease-in-out'>
 					{title}
 				</h3>
 				<p className='text-center text-cyan-950'>{text}</p>
