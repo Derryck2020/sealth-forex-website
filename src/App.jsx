@@ -6,6 +6,7 @@ import Product from './components/Product';
 import Stock from './components/Stock';
 import Highlights from './components/Highlights';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 const App = () => {
 	return (
@@ -16,6 +17,7 @@ const App = () => {
 			<Stock />
 			<Highlights />
 			<Testimonials />
+			<Footer />
 		</BrowserRouter>
 	);
 };
