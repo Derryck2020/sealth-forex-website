@@ -165,7 +165,7 @@ export const testimonial_list = [
 		image: ben,
 		location: 'Texas, USA',
 		title: 'Exceptional Support',
-		text: 'They are always available to assist me with any questions or concerns I have, providing prompt and helpful responses',
+		text: 'The support team at this forex is exceptional and timely. They are always available to assist me with any questions or concerns I have, providing prompt and helpful responses.',
 		rating: 4,
 	},
 	{
@@ -174,7 +174,7 @@ export const testimonial_list = [
 		image: elaine,
 		location: 'dortmund, German',
 		title: 'Transparent and Trustworthy',
-		text: 'They operate with integrity and honesty, ensuring that there are no hidden fees or surprises. I feel confident trading with them.',
+		text: 'I appreciate the transparency and trustworthiness of this forex company. They operate with integrity and honesty, ensuring that there are no hidden fees or surprises. I feel confident trading with them.',
 		rating: 5,
 	},
 	{
@@ -184,6 +184,6 @@ export const testimonial_list = [
 		location: 'liverpool, UK',
 		title: 'Advanced Technology, Easy to Use',
 		text: 'The trading platform provided by this forex company is top-notch. It offers advanced technology with user-friendly features, making it easy for me to execute trades and monitor the market.',
-		rating: 5,
+		rating: 4,
 	},
 ];
