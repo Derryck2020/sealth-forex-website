@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { navlinks, socialIcons } from '../data';
 import { close, menu } from '../assets';
 
@@ -34,11 +34,11 @@ const Navbar = () => {
 							className={`text-cyan-900 hover:text-cyan-500 text-[18px] capitalize font-medium cursor-pointer transition duration-300 ease-in-out`}
 							onClick={() => setActive(link.text)}
 						>
-							<a href={link.href}>{link.text}</a>
+							<NavLink to={link.href}>{link.text}</NavLink>
 						</li>
 					))}
 				</ul>
-				<ul className='sm:flex space-x-4 hidden'>
+				<ul className='sm:flex gap-5 hidden'>
 					{socialIcons.map((link) => (
 						<li
 							key={link.id}
