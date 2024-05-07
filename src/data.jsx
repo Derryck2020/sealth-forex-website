@@ -24,10 +24,10 @@ import {
 } from './assets';
 
 export const navlinks = [
-	{ id: nanoid(), href: 'about', text: 'about' },
-	{ id: nanoid(), href: 'services', text: 'services' },
-	{ id: nanoid(), href: 'blog', text: 'blog' },
-	{ id: nanoid(), href: 'contact', text: 'contact' },
+	{ id: nanoid(), url: '/about', text: 'about' },
+	{ id: nanoid(), url: '/services', text: 'services' },
+	{ id: nanoid(), url: '/blog', text: 'blog' },
+	{ id: nanoid(), url: '/contact', text: 'contact' },
 ];
 
 export const socialIcons = [
@@ -185,5 +185,23 @@ export const testimonial_list = [
 		title: 'Advanced Technology, Easy to Use',
 		text: 'The trading platform provided by this forex company is top-notch. It offers advanced technology with user-friendly features, making it easy for me to execute trades and monitor the market.',
 		rating: 4,
+	},
+];
+
+export const footer_details = [
+	{
+		id: nanoid(),
+		topic: 'overview',
+		details: ['stock indices', 'commodities', 'forex'],
+	},
+	{
+		id: nanoid(),
+		topic: 'company',
+		details: ['about', 'blog', 'careers'],
+	},
+	{
+		id: nanoid(),
+		topic: 'legal',
+		details: ['terms & conditions', 'privacy & policy', 'contact'],
 	},
 ];
