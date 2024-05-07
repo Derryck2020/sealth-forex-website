@@ -6,7 +6,7 @@ import { footer_details, socialIcons } from '../data';
 
 const Footer = () => {
 	return (
-		<section className='bg-cyan-950 mt-0'>
+		<Footer className='bg-cyan-950 mt-0'>
 			<div className='align-element pt-10 pb-5 grid gap-8'>
 				<section className='flex flex-col md:mx-20 items-center gap-10'>
 					<div className='flex flex-col justify-start items-center md:flex-row md:justify-center py-3 gap-5 md:gap-10 md:mr-20'>
@@ -88,7 +88,7 @@ const Footer = () => {
 					</div>
 				</section>
 			</div>
-		</section>
+		</Footer>
 	);
 };
 
