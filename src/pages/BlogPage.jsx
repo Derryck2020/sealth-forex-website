@@ -1,13 +1,16 @@
 import React from 'react';
-import PageHero from '../components/PageHero';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 
-const Blog = () => {
+const BlogPage = () => {
 	return (
-		<main>
-			<PageHero title='blog' />
-			<section className='bg-cyan-500'>Blog Section</section>
-		</main>
+		<>
+			<section>
+				<h2>Blog Page Working</h2>
+			</section>
+		</>
 	);
 };
 
-export default Blog;
+export default BlogPage;

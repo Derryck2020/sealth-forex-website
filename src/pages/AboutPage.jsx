@@ -1,7 +1,13 @@
 import React from 'react';
 
-const About = () => {
-	return <section className='bg-cyan-950 mt-0'>About Page</section>;
+const AboutPage = () => {
+	return (
+		<>
+			<section>
+				<h2>About Page Working</h2>
+			</section>
+		</>
+	);
 };
 
-export default About;
+export default AboutPage;
