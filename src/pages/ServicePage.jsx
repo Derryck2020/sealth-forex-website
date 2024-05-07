@@ -1,7 +1,14 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
-const Service = () => {
-	return <div>ServicesPage</div>;
+const ServicePage = () => {
+	return (
+		<>
+			<section>
+				<h2>Service Page under Working</h2>
+			</section>
+		</>
+	);
 };
 
-export default Service;
+export default ServicePage;
