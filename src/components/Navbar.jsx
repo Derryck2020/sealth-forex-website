@@ -34,7 +34,7 @@ const Navbar = () => {
 							className={`text-cyan-900 hover:text-cyan-500 text-[18px] capitalize font-medium cursor-pointer transition duration-300 ease-in-out`}
 							onClick={() => setActive(link.text)}
 						>
-							<NavLink to={link.href}>{link.text}</NavLink>
+							<Link to={link.url}>{link.text}</Link>
 						</li>
 					))}
 				</ul>
@@ -67,7 +67,7 @@ const Navbar = () => {
 									className={`text-base text-cyan-500 capitalize tracking-wider cursor-pointer px-2 py-1.5 hover:border hover:border-solid hover:border-cyan-500 hover:w-[200px] rounded-lg transition duration-300 ease-in-out`}
 									onClick={closeMenu}
 								>
-									<a href={link.href}>{link.text}</a>
+									<a href={link.url}>{link.text}</a>
 								</li>
 							))}
 						</ul>
