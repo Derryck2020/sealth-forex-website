@@ -2,15 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { testimonial_list } from '../data';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 
-const TestimonialCard = ({
-	id,
-	name,
-	image,
-	title,
-	location,
-	text,
-	rating,
-}) => {
+const TestimonialCard = ({}) => {
 	const [people, setPeople] = useState(testimonial_list);
 	const [currentPerson, setCurrentPerson] = useState(0);
 
