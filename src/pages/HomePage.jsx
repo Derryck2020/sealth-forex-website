@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 const HomePage = () => {
 	return (
 		<>
-			<nav>
+			<nav style={{ position: 'sticky', top: 0, zIndex: 10 }}>
 				<Navbar />
 			</nav>
 			<Outlet />
