@@ -13,7 +13,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='bg-white drop-shadow-md sticky top-0 z-10'>
+		<section className='bg-white drop-shadow-md'>
 			<div className='align-element py-3 flex sm:justify-between  sm:gap-x-16 sm:items-center sm:py-5'>
 				<Link
 					to='/'
@@ -34,7 +34,14 @@ const Navbar = () => {
 							className={`text-cyan-900 hover:text-cyan-500 text-[18px] capitalize font-medium cursor-pointer transition duration-300 ease-in-out`}
 							onClick={() => setActive(link.text)}
 						>
-							<Link to={link.url}>{link.text}</Link>
+							<NavLink
+								to={link.url}
+								className={({ isActive }) =>
+									isActive ? 'text-cyan-500' : 'text-cyan-900'
+								}
+							>
+								{link.text}
+							</NavLink>
 						</li>
 					))}
 				</ul>
@@ -44,7 +51,7 @@ const Navbar = () => {
 							key={link.id}
 							className='text-cyan-900 hover:text-cyan-500 transition duration-300 ease-in-out'
 						>
-							<a href={link.href}>{link.icon}</a>
+							<Link href={link.href}>{link.icon}</Link>
 						</li>
 					))}
 				</ul>
@@ -67,14 +74,14 @@ const Navbar = () => {
 									className={`text-base text-cyan-500 capitalize tracking-wider cursor-pointer px-2 py-1.5 hover:border hover:border-solid hover:border-cyan-500 hover:w-[200px] rounded-lg transition duration-300 ease-in-out`}
 									onClick={closeMenu}
 								>
-									<a href={link.url}>{link.text}</a>
+									<Link to={link.url}>{link.text}</Link>
 								</li>
 							))}
 						</ul>
 					</div>
 				</div>
 			</div>
-		</nav>
+		</section>
 	);
 };
 
