@@ -6,10 +6,10 @@ import { footer_details, socialIcons } from '../data';
 
 const Footer = () => {
 	return (
-		<Footer className='bg-cyan-950 mt-0'>
+		<section className='bg-cyan-950 mt-0'>
 			<div className='align-element pt-10 pb-5 grid gap-8'>
-				<section className='flex flex-col md:mx-20 items-center gap-10'>
-					<div className='flex flex-col justify-start items-center md:flex-row md:justify-center py-3 gap-5 md:gap-10 md:mr-20'>
+				<section className='flex flex-col md:mx-20 md:items-center gap-10'>
+					<div className='flex flex-col md:items-center md:flex-row md:justify-center py-3 gap-5 md:gap-10'>
 						<Link
 							to='/'
 							className='flex items-center gap-2 '
@@ -21,7 +21,7 @@ const Footer = () => {
 								seal<span className='text-cyan-500 text-4xl'>TH</span>
 							</h2>
 						</Link>
-						<ul className='grid grid-cols-2 gap-20 md:gap-10'>
+						<ul className='grid md:grid-cols-2 gap-10'>
 							<li>
 								<a
 									href='http://'
@@ -44,7 +44,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className='grid grid-cols-2 sm:grid-cols-3 w-full gap-10 capitalize tracking-wide text-cyan-100'>
+					<div className='grid grid-cols-2 md:ml-20 sm:grid-cols-3 w-full gap-10 capitalize tracking-wide text-cyan-100'>
 						{footer_details.map((item) => (
 							<div key={item.id}>
 								<ul className='flex flex-col gap-3'>
@@ -88,7 +88,7 @@ const Footer = () => {
 					</div>
 				</section>
 			</div>
-		</Footer>
+		</section>
 	);
 };
 
