@@ -71,7 +71,7 @@ const Navbar = () => {
 							{navlinks.map((link) => (
 								<li
 									key={link.id}
-									className={`text-base text-cyan-500 capitalize tracking-wider cursor-pointer px-2 py-1.5 hover:border hover:border-solid hover:border-cyan-500 hover:w-[200px] rounded-lg transition duration-300 ease-in-out`}
+									className={`text-base text-center text-white capitalize tracking-wider cursor-pointer px-2 py-1.5 border border-solid border-cyan-500 w-[200px] hover:border-transparent hover:bg-cyan-500 hover:text-cyan-950 rounded-lg transition-style`}
 									onClick={closeMenu}
 								>
 									<Link to={link.url}>{link.text}</Link>
