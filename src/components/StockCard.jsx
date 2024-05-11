@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaArrowTrendDown } from 'react-icons/fa6';
-import { stockItems } from '../data';
 
 const StockCard = ({ title, icon, trend, price }) => {
 	const priceColor =
