@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { heroImg } from '../assets';
-import { FiLogOut } from 'react-icons/fi';
+import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const Hero = () => {
 	return (
@@ -20,12 +20,12 @@ const Hero = () => {
 					<div className='flex justify-center sm:justify-start'>
 						<Link
 							to='/services'
-							className='flex items-center text-white w-48 capitalize py-4 px-6 my-10 bg-cyan-500 hover:bg-cyan-200 hover:text-cyan-900 hover:border-solid hover:border-2 hover:border-cyan-900 rounded-full transition duration-300 ease-in-out'
+							className='w-48 my-10 btn-style  transition-style'
 						>
+							<span>start trading</span>
 							<span>
-								<FiLogOut />
+								<IoIosArrowDroprightCircle />
 							</span>
-							<span className='ml-2'>start trading</span>
 						</Link>
 					</div>
 				</article>
