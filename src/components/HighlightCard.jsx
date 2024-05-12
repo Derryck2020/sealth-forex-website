@@ -4,7 +4,6 @@ const HighlightCard = ({ icon, title, text }) => {
 	return (
 		<article className='bg-cyan-600 grid relative gap-6 '>
 			<div className='flex justify-center p-2'>
-				{/* Image with ::before pseudo-element */}
 				<img
 					src={icon}
 					alt={title}
@@ -14,6 +13,7 @@ const HighlightCard = ({ icon, title, text }) => {
 				<span className='absolute bg-cyan-200 opacity-30 w-20 h-24 left-30 top-0 rounded-full transform rotate-45'>
 					{' '}
 				</span>
+				{/* ::after pseudo-element */}
 				<span className='absolute bg-cyan-200 opacity-30 w-20 h-24 right-30 top-0 rounded-full transform -rotate-45'>
 					{' '}
 				</span>
