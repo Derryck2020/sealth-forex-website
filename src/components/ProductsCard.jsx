@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiLogOut } from 'react-icons/fi';
+import { IoIosArrowDroprightCircle } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
 const ProductsCard = ({ img, url, title, text }) => {
@@ -17,12 +17,12 @@ const ProductsCard = ({ img, url, title, text }) => {
 				<p className='mt-4 text-cyan-900 leading-loose'>{text}</p>
 				<Link
 					to={url}
-					className='flex mx-auto items-center text-white w-40 capitalize tracking-wider py-4 px-6 my-5 bg-cyan-500 hover:bg-cyan-200 hover:text-cyan-900 hover:border-solid hover:border-2 hover:border-cyan-900 rounded-full transition duration-300 ease-in-out'
+					className='mx-auto w-40 my-5 btn-style transition-style'
 				>
+					<span>explore</span>
 					<span>
-						<FiLogOut />
+						<IoIosArrowDroprightCircle />
 					</span>
-					<span className='ml-2'>explore</span>
 				</Link>
 			</div>
 		</article>
