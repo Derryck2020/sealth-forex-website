@@ -1,6 +1,12 @@
 import { nanoid } from 'nanoid';
 import { BsTwitterX, BsLinkedin, BsFacebook } from 'react-icons/bs';
-import { FaArrowTrendDown, FaArrowTrendUp } from 'react-icons/fa6';
+import {
+	FaArrowTrendDown,
+	FaArrowTrendUp,
+	FaLayerGroup,
+	FaLeaf,
+	FaRegHourglassHalf,
+} from 'react-icons/fa6';
 
 import {
 	research,
@@ -201,7 +207,33 @@ export const footer_details = [
 	},
 	{
 		id: nanoid(),
+		topic: 'account info',
+		details: ['individual account', 'professional account', 'VIP account'],
+	},
+	{
+		id: nanoid(),
 		topic: 'legal',
 		details: ['terms & conditions', 'privacy & policy', 'contact'],
+	},
+];
+
+export const about_details = [
+	{
+		id: nanoid(),
+		icon: <FaLeaf className='size-7 ' />,
+		topic: 'philosophy',
+		text: 'Empowering traders with education, cutting-edge tools, and transparent strategies to navigate and succeed in the Forex market.',
+	},
+	{
+		id: nanoid(),
+		icon: <FaLayerGroup className='size-7' />,
+		topic: 'culture',
+		text: 'Our Forex trading company fosters a culture of collaboration, continuous learning, integrity, and innovation, empowering traders to thrive.',
+	},
+	{
+		id: nanoid(),
+		icon: <FaRegHourglassHalf className='size-7' />,
+		topic: 'history',
+		text: 'Pioneering Forex trading since 2010, our company has a rich history of innovation, integrity, and client success worldwide.',
 	},
 ];
