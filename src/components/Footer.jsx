@@ -8,7 +8,7 @@ const Footer = () => {
 	return (
 		<section className='bg-cyan-950 mt-0'>
 			<div className='align-element pt-10 pb-5 grid gap-8'>
-				<section className='flex flex-col md:mx-20 md:items-center gap-10'>
+				<section className='flex flex-col md:items-center gap-10'>
 					<div className='flex flex-col items-center md:flex-row md:justify-center py-3 gap-5 md:gap-10'>
 						<Link
 							to='/'
@@ -44,7 +44,7 @@ const Footer = () => {
 						</ul>
 					</div>
 					{/* Footer Details */}
-					<div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4  w-full gap-10 capitalize tracking-wide text-cyan-100'>
+					<div className='grid grid-cols-2 sm:grid-cols-3 md:mx-10 lg:grid-cols-4  w-full gap-10 capitalize tracking-wide text-cyan-100'>
 						{footer_details.map((item) => (
 							<div key={item.id}>
 								<ul className='flex flex-col gap-3'>
