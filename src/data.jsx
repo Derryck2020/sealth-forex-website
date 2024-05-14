@@ -27,6 +27,10 @@ import {
 	elaine,
 	ben,
 	nathan,
+	ivan,
+	brooke,
+	freda,
+	bruce,
 } from './assets';
 
 export const navlinks = [
@@ -235,5 +239,103 @@ export const about_details = [
 		icon: <FaRegHourglassHalf className='size-7' />,
 		topic: 'history',
 		text: 'Pioneering Forex trading since 2010, our company has a rich history of innovation, integrity, and client success worldwide.',
+	},
+];
+export const professional_details = [
+	{
+		id: nanoid(),
+		icon: freda,
+		name: 'queenstar cohen',
+		position: 'chief executive officer',
+		text: 'Dynamic, strategic, visionary leader global forex trading operations.',
+		links: [
+			{
+				id: nanoid(),
+				icon: <BsFacebook className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsTwitterX className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsLinkedin className='h-4 w-4' />,
+				href: '#',
+			},
+		],
+	},
+	{
+		id: nanoid(),
+		icon: ivan,
+		name: 'vikram sharma',
+		position: 'executive assistant',
+		text: 'Vikram is highly skilled adept at navigating forex markets, ensuring seamless trading.',
+		links: [
+			{
+				id: nanoid(),
+				icon: <BsFacebook className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsTwitterX className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsLinkedin className='h-4 w-4' />,
+				href: '#',
+			},
+		],
+	},
+	{
+		id: nanoid(),
+		icon: bruce,
+		name: 'criswell bruce',
+		position: 'marketing specialist',
+		text: 'Strategic at orchestrating market initiatives and maximizing profits.',
+		links: [
+			{
+				id: nanoid(),
+				icon: <BsFacebook className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsTwitterX className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsLinkedin className='h-4 w-4' />,
+				href: '#',
+			},
+		],
+	},
+	{
+		id: nanoid(),
+		icon: brooke,
+		name: 'elsa brooks',
+		position: 'human resources',
+		text: 'Recruiting skilled professionals for currency trading, managing talents in dynamic forex markets.',
+		links: [
+			{
+				id: nanoid(),
+				icon: <BsFacebook className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsTwitterX className='h-4 w-4' />,
+				href: '#',
+			},
+			{
+				id: nanoid(),
+				icon: <BsLinkedin className='h-4 w-4' />,
+				href: '#',
+			},
+		],
 	},
 ];
