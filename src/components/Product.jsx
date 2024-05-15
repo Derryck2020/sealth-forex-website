@@ -21,7 +21,7 @@ const Product = () => {
 					</h2>
 				</section>
 				<div className='mt-5 grid sm:grid-cols-2 xl:grid-cols-3 gap-8'>
-					{products.map((product) => {
+					{products.slice(0, 3).map((product) => {
 						return <ProductsCard key={product.id} {...product} />;
 					})}
 				</div>
