@@ -31,6 +31,13 @@ import {
 	brooke,
 	freda,
 	bruce,
+	croppedImg,
+	gold,
+	meeting,
+	money,
+	sp_500,
+	apple,
+	hyundai,
 } from './assets';
 
 export const navlinks = [
@@ -69,6 +76,20 @@ export const products = [
 	{
 		id: nanoid(),
 		img: trading,
+		url: '#',
+		title: 'PAMM account trading',
+		text: 'Our PAMM account trading service allows you to invest in Forex with experienced traders who will manage your funds on your behalf, providing a stress-free ...',
+	},
+	{
+		id: nanoid(),
+		img: research,
+		url: '#',
+		title: 'trade monitoring and support',
+		text: 'Keep track of your trades and receive expert support with our comprehensive trade monitoring and support services for your forex trading journey ...',
+	},
+	{
+		id: nanoid(),
+		img: croppedImg,
 		url: '#',
 		title: 'PAMM account trading',
 		text: 'Our PAMM account trading service allows you to invest in Forex with experienced traders who will manage your funds on your behalf, providing a stress-free ...',
@@ -337,5 +358,50 @@ export const professional_details = [
 				href: '#',
 			},
 		],
+	},
+];
+
+export const news_items = [
+	{
+		id: nanoid(),
+		img: money,
+		url: '#',
+		title: 'currency pair and analysis',
+		text: 'Discover currency pairs and expert analysis for optimal trading strategies. Stay informed with comprehensive market insights and make ...',
+	},
+	{
+		id: nanoid(),
+		img: apple,
+		url: '#',
+		title: 'PAMM account trading',
+		text: 'Our PAMM account trading service allows you to invest in Forex with experienced traders who will manage your funds on your behalf, providing a stress-free ...',
+	},
+	{
+		id: nanoid(),
+		img: sp_500,
+		url: '#',
+		title: 'trade monitoring and support',
+		text: 'Keep track of your trades and receive expert support with our comprehensive trade monitoring and support services for your forex trading journey ...',
+	},
+	{
+		id: nanoid(),
+		img: gold,
+		url: '#',
+		title: 'PAMM account trading',
+		text: 'Our PAMM account trading service allows you to invest in Forex with experienced traders who will manage your funds on your behalf, providing a stress-free ...',
+	},
+	{
+		id: nanoid(),
+		img: hyundai,
+		url: '#',
+		title: 'trade monitoring and support',
+		text: 'Keep track of your trades and receive expert support with our comprehensive trade monitoring and support services for your forex trading journey ...',
+	},
+	{
+		id: nanoid(),
+		img: meeting,
+		url: '#',
+		title: 'trade monitoring and support',
+		text: 'Keep track of your trades and receive expert support with our comprehensive trade monitoring and support services for your forex trading journey ...',
 	},
 ];
