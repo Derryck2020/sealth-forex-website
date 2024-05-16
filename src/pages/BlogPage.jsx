@@ -5,7 +5,7 @@ import NewsCard from '../components/NewsCard';
 
 const BlogPage = () => {
 	return (
-		<>
+		<section className='bg-gray-100'>
 			<section>
 				<div
 					style={{
@@ -23,7 +23,7 @@ const BlogPage = () => {
 					return <NewsCard key={product.id} {...product} />;
 				})}
 			</section>
-		</>
+		</section>
 	);
 };
 
