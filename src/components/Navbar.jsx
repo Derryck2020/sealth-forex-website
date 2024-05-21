@@ -32,7 +32,9 @@ const Navbar = () => {
 						<li
 							key={link.id}
 							className={`text-cyan-900 hover:text-cyan-500 text-[18px] capitalize font-medium cursor-pointer transition duration-300 ease-in-out`}
-							onClick={() => setActive(link.text)}
+							onClick={() => {
+								setActive(link.text), window.scrollTo(0, 0);
+							}}
 						>
 							<NavLink
 								to={link.url}
