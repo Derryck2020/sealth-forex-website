@@ -18,6 +18,20 @@ const Contact = () => {
 					<PageHero title='Contact Us' />
 				</div>
 			</section>
+			<section>
+				<div className='align-element py-10 mt-10 grid items-center gap-8'>
+					<section className='flex flex-col md:mx-20 items-center'>
+						<div className='flex items-center capitalize py-3 px-6 '>
+							<h6 className='ml-2 uppercase font-semibold text-cyan-950'>
+								what we offer
+							</h6>
+						</div>
+						<h2 className='text-4xl tracking-wide text-cyan-950 md:text-6xl md:w-45 md:mx-25 text-center font-semibold'>
+							Explore our different types of account.
+						</h2>
+					</section>
+				</div>
+			</section>
 		</section>
 	);
 };
