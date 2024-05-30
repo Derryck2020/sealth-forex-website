@@ -1,7 +1,10 @@
 import React from 'react';
 import { croppedImg, team } from '../assets';
 import PageHero from '../components/PageHero';
-
+import { FiPhoneCall } from 'react-icons/fi';
+import { FaCommentDots, FaPhone, FaWhatsapp } from 'react-icons/fa6';
+import { IoEnterOutline } from 'react-icons/io5';
+import { IoIosMailOpen } from 'react-icons/io';
 const Contact = () => {
 	return (
 		<section className='bg-gray-100'>
@@ -18,18 +21,44 @@ const Contact = () => {
 					<PageHero title='Contact Us' />
 				</div>
 			</section>
-			<section>
-				<div className='align-element py-10 mt-10 grid items-center gap-8'>
-					<section className='flex flex-col md:mx-20 items-center'>
-						<div className='flex items-center capitalize py-3 px-6 '>
-							<h6 className='ml-2 uppercase font-semibold text-cyan-950'>
-								what we offer
-							</h6>
+
+			<section className='align-element py-10 mt-10 grid items-center gap-8'>
+				<div className='grid gap-10 items-center md:grid-cols-3'>
+					<div className='flex flex-col items-center gap-6 p-12 border rounded-md shadow-md'>
+						<FiPhoneCall className='text-4xl text-cyan-500' />
+						<div className='text-center'>
+							<h3 className='font-semibold'>Request Call Back</h3>
+							<p className='text-gray-500'>We will get back.</p>
 						</div>
-						<h2 className='text-4xl tracking-wide text-cyan-950 md:text-6xl md:w-45 md:mx-25 text-center font-semibold'>
-							Explore our different types of account.
-						</h2>
-					</section>
+						<span className='flex w-full font-semibold justify-center py-3 border border-gray-300 rounded-full'>
+							+447-1801-537
+						</span>
+					</div>
+					<div className='flex flex-col  items-center gap-6 p-12 border rounded-md shadow-md'>
+						<FaCommentDots className='text-4xl text-cyan-500' />
+						<div className='text-center'>
+							<h3 className='font-semibold'>Chat with Expert</h3>
+							<p className='text-gray-500'>
+								Live chat with forex specialist.
+							</p>
+						</div>
+						<div className='flex justify-center items-center gap-4 px-4 py-3 cursor-pointer border border-gray-300 btn-style transition-style rounded-full'>
+							<span>
+								<IoEnterOutline className='text-lg' />
+							</span>
+							<span className='uppercase font-semibold'>start chat</span>
+						</div>
+					</div>
+					<div className='flex flex-col  items-center gap-6 py-12 border rounded-md shadow-md'>
+						<div className='flex flex-col justify-center items-center gap-4 px-4 py-3'>
+							<h3 className='font-semibold'>Business Hours</h3>
+							<p className='text-center text-gray-500'>
+								Monday - Friay: 8am to 5pm, Saturday: 10am to 1pm
+							</p>
+							<FaWhatsapp className='text-2xl text-green-400' />
+							<span className='font-semibold'>Whatsapp</span>
+						</div>
+					</div>
 				</div>
 			</section>
 		</section>
